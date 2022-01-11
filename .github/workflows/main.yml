@@ -34,9 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-yarn install
-export ALCHEMY_KEY="<Storefront>"
-export MNEMONIC="<genuine input arctic voice night decrease relax people crucial twelve rhythm invite>"
-export NETWORK="Mainnet"
-yarn truffle deploy --network Mainnet
