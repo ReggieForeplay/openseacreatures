@@ -33,6 +33,6 @@ jobs:
       - name: Export NFT
         run: yarn install
           export ALCHEMY_KEY="<https://eth-mainnet.alchemyapi.io/v2/gW3IVPpbZV3STO-NXagXJjfnGrB3YMEm>"
-          export MNEMONIC="<genuine input arctic voice night decrease relax people crucial twelve rhythm invite>"
+          export MNEMONIC="<Metamask>"
           export NETWORK="Mainnet"
           yarn truffle deploy --network Mainnet
