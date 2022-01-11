@@ -35,7 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-name: Export NFT
 run:
   yarn install
   export ALCHEMY_KEY="<https://eth-mainnet.alchemyapi.io/v2/gW3IVPpbZV3STO-NXagXJjfnGrB3YMEm>"
