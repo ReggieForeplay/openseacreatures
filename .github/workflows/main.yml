@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Export NFT
-        run: yarn install
+        run: yarn
           export ALCHEMY_KEY="<https://eth-mainnet.alchemyapi.io/v2/gW3IVPpbZV3STO-NXagXJjfnGrB3YMEm>"
          export MNEMONIC="<genuine input arctic voice night decrease relax people crucial twelve rhythm invite>"
          export NETWORK="Mainnet"
